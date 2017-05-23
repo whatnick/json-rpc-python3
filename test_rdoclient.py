@@ -75,7 +75,10 @@ class TestRandomOrgClient(unittest.TestCase):
         """Check RuntimeError raised for one of several possible error codes, 
         in this case we use "method not found"."""
         
-        params = { 'apiKey':_API_KEY_1, 'n':10, 'min':0, 'max':10, 'replacement':True }
+        params = {
+            'apiKey': _API_KEY_1, 'n': 10, 'min': 0, 'max': 10,
+            'replacement': True
+        }
         request = self._client._generate_request(_FAKE_METHOD, params)
         
         with pytest.raises(RuntimeError):
