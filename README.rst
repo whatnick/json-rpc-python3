@@ -97,3 +97,9 @@ Documentation
 For a full list of available randomness generation functions and other
 features see ``rdoclient.py`` documentation and
 `this link <https://api.random.org/json-rpc/1/>`__.
+
+Change log
+----------
+
+* 2017-07-15 Release 2.0.1: Converted README.md to RST for PyPi
+* 2017-07-15 Release 2.0.0: Initial release. Added to PyPi
