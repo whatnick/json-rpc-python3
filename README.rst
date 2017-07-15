@@ -96,4 +96,4 @@ Documentation
 
 For a full list of available randomness generation functions and other
 features see ``rdoclient.py`` documentation and
-`https://api.random.org/json-rpc/1/ <>`__
+`this link <https://api.random.org/json-rpc/1/>`__.
