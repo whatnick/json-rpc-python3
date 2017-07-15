@@ -18,7 +18,7 @@ To install, simply: ``pip install rdoclient-py3``
 
 The base RDO implementation only requires the
 `requests <http://docs.python-requests.org/en/latest/>`__ library:
-``pip install requests``. However, this package (**``rdoclient-py3``**)
+``pip install requests``. However, this package (``rdoclient-py3``)
 requires additional dependencies:
 
 ``pip install -r requirements``
