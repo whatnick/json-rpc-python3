@@ -6,9 +6,19 @@ This is a Python 3 implementation of the RANDOM.ORG JSON-RPC API (R1). It provid
 
 ## Installation
 
-To install, simply: `pip install rdoclient`
+To install, simply: `pip install rdoclient-py3`
 
-Requires the [requests] (http://docs.python-requests.org/en/latest/): `pip install requests`
+The base RDO implementation only requires the [requests](http://docs.python-requests.org/en/latest/) library: `pip install requests`. However, this package (**rdoclient-py3**) requires additional dependencies:
+
+`pip install -r requirements`
+
+## Tests
+
+### Secure an API key and run the tests
+
+Note that to run the accompanying tests the API_KEY fields must be given authentic values. Get an API key from [here](https://api.random.org/api-keys/beta). Run tests like so:
+
+`py.test test_rdoclient.py`
 
 ## Usage
 
@@ -47,8 +57,4 @@ Finally, it is possible to request live results as-soon-as-possible and without 
 
 ## Documentation
 
-For a full list of available randomness generation functions and other features see rdoclient.py documentation and [https://api.random.org/json-rpc/1/]()
-
-## Tests
-
-Note that to run the accompanying tests the API_KEY fields must be given authentic values. 
+For a full list of available randomness generation functions and other features see rdoclient.py documentation and [https://api.random.org/json-rpc/1/]() 
