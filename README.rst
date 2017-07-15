@@ -26,12 +26,11 @@ requires additional dependencies:
 Tests
 -----
 
-Secure an API key and run the tests
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Secure an API key and run the tests. Note that to run the accompanying tests
+the API\_KEY fields must be given authentic values. Get an API key from
+`here <https://api.random.org/api-keys/beta>`__.
 
-Note that to run the accompanying tests the API\_KEY fields must be
-given authentic values. Get an API key from
-`here <https://api.random.org/api-keys/beta>`__. Run tests like so:
+Run tests like so:
 
 ``py.test test_rdoclient.py``
 

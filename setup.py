@@ -17,7 +17,7 @@ setup(
     url="https://github.com/nicorellius/json-rpc-python3",
     packages=['rdoclient_py3'],
     python_requires='>=3',
-    long_description=read('README.md'),
+    long_description=read('README.rst'),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
