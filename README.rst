@@ -42,7 +42,7 @@ batch clients:
 
 ::
 
-    >>> from rdoclient import RandomOrgClient
+    >>> from rdoclient_py3 import RandomOrgClient
     >>> r = RandomOrgClient(YOUR_API_KEY_HERE)
     >>> r.generate_integers(5, 0, 10)
     [6, 2, 8, 9, 2]
